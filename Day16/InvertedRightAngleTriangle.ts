@@ -1,0 +1,12 @@
+let w:string=""
+
+for(let r:number=1;r<=5;r++)
+{
+    for(let c:number=1;c<=6-r;c++)
+    {
+        w+="*"+" "
+    }
+
+    w+="\n"
+}
+console.log(w)

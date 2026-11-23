@@ -1,0 +1,10 @@
+let a:number[]=[10,20,30,40,50,60]
+console.log(a)
+a.unshift(70)
+console.log(a)
+a.shift()
+console.log(a)
+a.push(80)
+console.log(a)
+a.pop()
+console.log(a)
