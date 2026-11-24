@@ -1,8 +1,8 @@
-let a:string="MEDAM"
+let a:string="Ramya"
 
 let b:string[]=a.split("")
 
-let reverse:string=b.reverse().join(" ")
+let reverse:string=b.reverse().join("")
 
 // if(reverse==a)
 // {
